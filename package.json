@@ -1,0 +1,21 @@
+{
+  "version": "3.0.0",
+  "name": "GYKarousel",
+  "private": true,
+  "scripts": {
+    "build": "webpack --mode production --config prod.webpack.config.js",
+    "dev": "webpack --mode development --config dev.webpack.config.js",
+    "watch": "webpack --mode development --watch --config dev.webpack.config.js"
+  },
+  "devDependencies": {
+    "css-loader": "^1.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.4",
+    "node-sass": "^4.10.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.26.0",
+    "webpack-cli": "^3.1.2"
+  }
+}

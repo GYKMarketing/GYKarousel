@@ -1,0 +1,32 @@
+.gykarousel {
+  overflow: hidden;
+  position: relative;
+  width: 100%; }
+
+.gykarousel__container {
+  position: relative;
+  top: 0;
+  left: 0; }
+
+.gykarousel__control {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  z-index: 50; }
+
+.gykarousel__control--next {
+  left: auto;
+  right: 0; }
+
+.gykarousel__slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; }
+  .gykarousel__slide a {
+    display: block; }
+  .gykarousel__slide img {
+    display: block;
+    width: 100%; }
+

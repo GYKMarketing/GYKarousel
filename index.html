@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GYKarousel</title>
+	
+	<link rel="stylesheet" href="gykarousel.css<%= htmlWebpackPlugin.options.version %>">
+</head>
+<body>
+	<div class="section section--homepage-hero homepage-hero-container">
+		<div id="homepage-slider" class="gykarousel">
+			<div class="gykarousel__container">
+				<div class="gykarousel__slide">
+					<a href="#" class="gtm-yule-love-our-new-holiday-tickets!"><picture class="homepage-hero__slide"><source srcset="https://nhlottery.com/getdoc/3c26ee9f-f036-4a94-a280-2fb108de3678/Yule-Love-Our-New-Holiday-Tickets!" media="(min-width: 1500px)"> <source srcset="https://nhlottery.com/getdoc/1d330e08-f0a5-4f11-bf9c-739046e598dc/Yule-Love-Our-New-Holiday-Tickets!" media="(min-width: 650px)"> <img srcset="https://nhlottery.com/getdoc/366eadaf-3c08-4ea5-8f42-1e1032028c3e/Yule-Love-Our-New-Holiday-Tickets!" alt="Yule Love Our New Holiday Tickets!"></picture></a>
+				</div>
+				<div class="gykarousel__slide">
+					<a href="#" class="gtm-match-one-win-two-million"><picture class="homepage-hero__slide"><source srcset="https://nhlottery.com/getdoc/17f33ced-0395-4334-8d27-6cef6a7f0306/Match-One-Win-Two-Million" media="(min-width: 1500px)"> <source srcset="https://nhlottery.com/getdoc/b95f5e25-4e84-4f39-a6b5-61bc648fffdf/Match-One-Win-Two-Million" media="(min-width: 650px)"> <img srcset="https://nhlottery.com/getdoc/aab1b766-b603-4604-a731-d5d9052765be/Match-One-Win-Two-Million" alt="Match One Win Two Million"></picture></a>
+				</div>
+				<div class="gykarousel__slide">
+					<a href="#" class="gtm-play-e-instants-online"><picture class="homepage-hero__slide"><source srcset="https://nhlottery.com/getdoc/a8040ec7-92ea-44d5-91d0-6bcca2acb01e/Spring-on-the-luck" media="(min-width: 1500px)"> <source srcset="https://nhlottery.com/getdoc/69dde028-a290-48ae-80f9-c54a9106b014/Spring-on-the-luck" media="(min-width: 650px)"> <img srcset="https://nhlottery.com/getdoc/302fd8c9-dc39-4cba-918d-7b93dd91c888/Spring-on-the-luck" alt="Play E-instants Online"></picture></a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="gykarousel.js<%= htmlWebpackPlugin.options.version %>"></script>
+
+	<script>
+		GYKarousel.init({
+			'container': '#homepage-slider'
+		});
+	</script>
+</body>
+</html>
+
